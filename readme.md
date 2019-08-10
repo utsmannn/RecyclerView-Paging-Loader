@@ -46,7 +46,7 @@ class MyPagingAdapter(loaderIdentifierId: LoaderIdentifierId) :
     }
         
 
-    override fun onItemBindViewHolder(holder: PexelViewHolder, position: Int) {
+    override fun onItemBindViewHolder(holder: ItemViewHolder, position: Int) {
         // bind your holder
     }
 }
