@@ -18,7 +18,7 @@ import com.utsman.rvpagingloader.adapter.PexelAdapter
 
 class MainActivity : AppCompatActivity() {
 
-    private val GRID_COLUMN = 2
+    private val GRID_COLUMN = 4
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
