@@ -82,6 +82,9 @@ viewModel.getLoader().observe(this, Observer { networkState ->
 For grid layout manager you can fix loader position with
 ```myAdapter.setGridSpan(column_size)```
 
+### Sample
+[Pexel app](https://github.com/utsmannn/RecyclerView-Paging-Loader/tree/master/app/src/main/java/com/utsman/rvpagingloader)
+
 ### Download
 ```gradle
 implementation 'com.utsman.rvpagingloader:adapter:1.0.0'
