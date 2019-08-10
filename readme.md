@@ -4,6 +4,9 @@
 This library is used to create a progress loader in the recyclerview when calling data.<br>
 Based on [Android Paging Library](https://developer.android.com/topic/libraries/architecture/paging), **you must know Paging Library before using it**.
 
+| loader  | error |
+|---| --- |
+|  ![](https://i.ibb.co/h15LBG7/Screen-Shot-2019-08-11-at-1-16-38-AM-1.png) | ![](https://i.ibb.co/9b4wb8S/Screenshot-20190811-011505-1.png)  |
 
 ### 1. Step one
 ***Create 2 ViewHolder*** <br>
@@ -33,7 +36,7 @@ class MyPagingAdapter(loaderIdentifierId: LoaderIdentifierId) :
 
     override fun onItemCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
         // return to your item view holder
-        return PexelViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_view, parent, false))
+        return ItemViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_view, parent, false))
     }
     
 
