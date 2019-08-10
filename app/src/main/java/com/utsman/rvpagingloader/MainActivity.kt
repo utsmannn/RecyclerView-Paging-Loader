@@ -33,10 +33,10 @@ class MainActivity : AppCompatActivity() {
 
         val pexelAdapter = PexelAdapter(loaderIdentifierId)
 
-        //val layoutManager = GridLayoutManager(this, GRID_COLUMN)
-        //layoutManager.spanSizeLookup = pexelAdapter.setGridSpan(GRID_COLUMN)
+        val layoutManager = GridLayoutManager(this, GRID_COLUMN)
+        layoutManager.spanSizeLookup = pexelAdapter.setGridSpan(GRID_COLUMN)
 
-        val layoutManager = LinearLayoutManager(this)
+        //val layoutManager = LinearLayoutManager(this)
 
         val recyclerView = findViewById<RecyclerView>(R.id.main_recycler_view)
         recyclerView.layoutManager = layoutManager
