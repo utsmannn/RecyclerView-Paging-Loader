@@ -192,12 +192,12 @@ override fun onLoaderBindViewHolder(holder: NetworkViewHolder, position: Int, lo
 
 ### Sample
 [Pexel app paging library](https://github.com/utsmannn/RecyclerView-Paging-Loader/tree/master/app/src/main/java/com/utsman/rvpagingloader) <br>
-[Pexel app endless scroll listener](https://github.com/utsmannn/RecyclerView-Paging-Loader/tree/master/app_endless/src/main/java/com/utsman/rvpagingloader)
+[Pexel app endless scroll listener](https://github.com/utsmannn/RecyclerView-Paging-Loader/tree/master/app_endless/src/main/java/com/utsman/rvpagingloader/endless)
 
 ### Download
 #### For Paging Library
 ```gradle
-implementation 'com.utsman.rvpagingloader:adapter:1.0.0'
+implementation 'com.utsman.rvpagingloader:adapter:1.0.1'
 ```
 
 #### For Endless Scroll Listener (Not recommended)
