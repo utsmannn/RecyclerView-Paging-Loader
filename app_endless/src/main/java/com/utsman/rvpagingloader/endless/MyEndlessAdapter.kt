@@ -27,8 +27,4 @@ class MyEndlessAdapter(identifierId: LoaderIdentifierId) : EndlessLoaderAdapter<
         val pexel = getItem(position)
         if (pexel != null) holder.bind(pexel)
     }
-
-    override fun onLoaderBindViewHolder(holder: NetworkViewHolder, position: Int, loaderIdentifierRes: LoaderIdentifierId) {
-        super.onLoaderBindViewHolder(holder, position, loaderIdentifierRes)
-    }
 }
