@@ -1,0 +1,8 @@
+<!--
+  ~ Created by Muhammad Utsman on 8/11/19 6:42 AM
+  ~ Copyright (c) 2019 . All rights reserved.
+  ~ Last modified 8/11/19 6:42 AM
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.utsman.adapter.endless"/>

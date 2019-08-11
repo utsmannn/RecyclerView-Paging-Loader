@@ -9,7 +9,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/adapter" />
+            <option value="$PROJECT_DIR$/adapter_endless" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app_endless" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

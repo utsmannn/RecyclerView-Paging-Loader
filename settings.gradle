@@ -4,4 +4,4 @@
  * Last modified 8/10/19 10:31 PM
  */
 
-include ':app', ':adapter'
+include ':app', ':adapter', ':adapter_endless', ':app_endless'
