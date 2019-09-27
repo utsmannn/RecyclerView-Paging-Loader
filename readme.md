@@ -1,5 +1,11 @@
 ## Simplify network loader for paging recyclerview
 
+# ***DEPRECATED***
+### Check my other library, [Recycling, Create RecyclerView Without Adapter](https://github.com/utsmannn/Recycling)
+
+<br>
+<br>
+
 [ ![Download](https://api.bintray.com/packages/kucingapes/utsman/com.utsman.rvpagingloader/images/download.svg) ](https://bintray.com/kucingapes/utsman/com.utsman.rvpagingloader/_latestVersion) <br>
 This library is used to create a progress loader in the recyclerview when calling data.<br>
 Compatible with [Android Paging Library](https://developer.android.com/topic/libraries/architecture/paging) **(you must know Paging Library before using it)** and endless recyclerview scroll listener (old way, **not recommended**)
